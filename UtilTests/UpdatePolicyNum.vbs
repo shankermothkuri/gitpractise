@@ -1,6 +1,6 @@
 Set Arg = WScript.Arguments
-
-UpdatePolicyNumber Arg(0) Arg(1) Arg(2)
+	Msgbox "Test for Jenkins"
+'UpdatePolicyNumber Arg(0) Arg(1) Arg(2)
 Sub UpdatePolicyNumber(strFilePath,strTCID,strPolicyNum)			
     On Error resume next
 		
